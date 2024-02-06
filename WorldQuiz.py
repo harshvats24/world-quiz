@@ -13,45 +13,45 @@ score = 0
 
 userInput = input("\nWhat's the capital of Australia? \n").lower()
 if userInput == 'canberra':
-    print(correctStr)
+    print(f'\n{correctStr} answer')
     score += 1
 else:
-    print(incorrectStr)
+    print(f'\n{incorrectStr} answer')
 
 userInput = input("\nWhat's the continent of Spain? \n").lower()
 if userInput == 'europe':
-    print(correctStr)
+    print(f'\n{correctStr} answer')
     score += 1
 else:
-    print(incorrectStr)
+    print(f'\n{incorrectStr} answer')
 
 userInput = input("\nWhich river is the longest river in the world? \n").lower()
 if userInput == 'nile':
-    print(correctStr)
+    print(f'\n{correctStr} answer')
     score += 1
 else:
-    print(incorrectStr)
+    print(f'\n{incorrectStr} answer')
 
 userInput = input("\nName the hot desert found in India. \n").lower()
 if userInput == 'thar':
-    print(correctStr)
+    print(f'\n{correctStr} answer')
     score += 1
 else:
-    print(incorrectStr)
+    print(f'\n{incorrectStr} answer')
 
 userInput = input("\nWhich is the uninhabitated continent in the world? \n").lower()
 if userInput == 'antarctica':
-    print(correctStr)
+    print(f'\n{correctStr} answer')
     score += 1
 else:
-    print(incorrectStr)
+    print(f'\n{incorrectStr} answer')
 
 userInput = input("\nWhich is the largest country in the world? \n").lower()
 if userInput == 'russia':
-    print(correctStr)
+    print(f'\n{correctStr} answer')
     score += 1
 else:
-    print(incorrectStr)
+    print(f'\n{incorrectStr} answer')
 
 print(f"\nYou have got {score} out of 6 answers right.\n")
 if score<3:

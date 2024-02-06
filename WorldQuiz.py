@@ -46,6 +46,13 @@ if userInput == 'antarctica':
 else:
     print(incorrectStr)
 
-print(f"\nYou have got {score} out of 5 answers right.\n")
+userInput = input("\nWhich is the largest country in the world? \n").lower()
+if userInput == 'russia':
+    print(correctStr)
+    score += 1
+else:
+    print(incorrectStr)
+
+print(f"\nYou have got {score} out of 6 answers right.\n")
 if score<3:
     print("\nYou should try again.")
